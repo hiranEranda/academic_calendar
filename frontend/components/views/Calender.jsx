@@ -257,8 +257,8 @@ function Calender() {
                         (meeting) =>
                           isSameDay(parseISO(meeting.event.startDate), day) &&
                           meeting.event.eventTitle ===
-                            'Soft skill development pro'
-                      ) && 'solid border-2 border-orange-500',
+                            'Soft skill development program'
+                      ) && 'solid border-2 border-pink-500',
                       data.some(
                         (meeting) =>
                           isSameDay(parseISO(meeting.event.startDate), day) &&
@@ -310,7 +310,7 @@ function Calender() {
                             day.toISOString().split('T')[0] ===
                               date.toISOString().split('T')[0] &&
                             meeting.event.eventTitle ===
-                              'Soft skill development pro'
+                              'Soft skill development program'
                           )
                             return true
                         })
